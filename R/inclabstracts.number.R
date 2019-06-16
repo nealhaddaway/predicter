@@ -1,4 +1,15 @@
-inclabstracts.number <- function(n.included.titles=1240.665,abstracts.retained=25){
-  n.included.abstracts <- n.included.titles * ( abstracts.retained / 100 )
+#' Number of abstracts included after abstract screening
+#'
+#' This function calculates the number of abstracts remaining after abstract
+#' screening in a systematic review, based on the inputs of the number of
+#' records remaining after title screening ('incltitles.number', see
+#' 'incltitles.number' function) and the percentage of abstracts retained
+#' through this abstract screening stage ('abstracts.retained'). Default
+#' values are provided based on the empirical study of environmental
+#' systematic reviews by Haddaway and Westgate (2018)
+#' https://doi.org/10.1111/cobi.13231.
+
+inclabstracts.number <- function(incltitles.number=1240.665,abstracts.retained=25){
+  n.included.abstracts <- incltitles.number * ( abstracts.retained / 100 )
   return(n.included.abstracts)
 }
