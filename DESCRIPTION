@@ -2,7 +2,10 @@ Package: predicter
 Title: A Tool to Estimates the Time Needed to Conduct a Systematic Review or Systematic Map
 Version: 0.1
 Authors@R: person("Neal", "Haddaway", email = "neal_haddaway@hotmail.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Description: This package contains functions to calculate the volume of evidence moving through the 
+  process of a systematic review or systematic map, along with the time necessary to complete these
+  steps. Default data are based on an empirical study by Haddaway and Westgate (2019) 
+  https://doi.org/10.1111/cobi.13231.
 Depends: R (>= 3.6.0)
 License: MIT + file LICENSE
 Encoding: UTF-8
