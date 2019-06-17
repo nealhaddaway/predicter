@@ -1,6 +1,6 @@
 #' Time needed to screen abstracts of relevant titles
 #'
-#' This function calculates the time needed to screen the abstracts of
+#' This function calculates the time needed to screen all abstracts of
 #' the titles deemed to be relevant at the previous stage in a systematic
 #' review, based on the inputs of the number of relevant titles
 #' ('incltitles.number', see 'incltitles.number' function), the number of
