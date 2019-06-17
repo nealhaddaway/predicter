@@ -1,5 +1,5 @@
 # predicter
-A Tool to Estimates the Time Needed to Conduct a Systematic Review or Systematic Map
+A Tool to Predict the Time Needed to Conduct a Systematic Review or Systematic Map
 
 This package contains the functions behind the www.predicter.org ShinyApp tool to estimate the time required (in full time 
 equivalent days) to conduct a rigorous systematic review (in line with international standards according to the Collaboration 
