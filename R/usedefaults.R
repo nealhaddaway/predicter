@@ -1,6 +1,6 @@
 #' Impute missing values in input PredicTER dataset using defaults
 #'
-#' This function takes an input dataset and imputes missing values for specific columns using
+#' This function uses an input dataset and imputes missing values for specific columns using
 #' empirically-derived default values. Default values are provided based on the empirical
 #' study of environmental systematic reviews by Haddaway and Westgate (2018)
 #' https://doi.org/10.1111/cobi.13231. The function relies on the 'replace_na' function in
