@@ -1,4 +1,4 @@
-#' Estimate of the time needed to conduct a systematic review
+#' Predict the time needed to conduct a systematic review
 #'
 #' This function uses other functions in the package to estimate the time
 #' needed to conduct a systematic review. See other packages for details.
