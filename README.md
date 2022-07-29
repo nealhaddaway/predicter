@@ -10,5 +10,5 @@ The package contains a suite of smaller functions to calculate time requirements
 number of records retained following the previous step. In addition, the main 'predicter' function combines these estimates 
 into a single estimate for the predicted time requirements of a particular review project in days.
 
-Defaul values are provided based on an empirical study by Neal R Haddaway and Martin J Westgate (2018) 
+Default values are provided based on an empirical study by Neal R Haddaway and Martin J Westgate (2018) 
 https://doi.org/10.1111/cobi.13231.
